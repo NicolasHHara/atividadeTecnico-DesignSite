@@ -1,0 +1,121 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: aliceblue;
+}
+
+header{
+    height: 20%;
+    width: 100%;
+    display: flex;
+}
+
+.imgLogoPrincipalSite{
+    height: 13vh;
+    width: 6vw;
+    float: left;
+}
+
+.tituloPrincipal{
+    margin-top: 13px;
+    margin-left: 1%;
+    float: left;
+}
+
+.imgLogoAjuda{
+    height: 7vh;
+    width: 3vw;
+    float: left;
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+.tituloAjuda{
+    font-size: x-large;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.tituloAjuda:hover{
+    cursor: pointer;
+}
+
+.tituloMinhasViagens{
+    font-size: x-large;
+    float: left;
+    margin-left: 8%;
+    margin-top: 20px;
+}
+
+.tituloMinhasViagens:hover{
+    cursor: pointer;
+}
+
+.imgLogoLogin{
+    height: 12vh;
+    width: 5vw;
+    float: left;
+    margin-left: 30px;
+}
+
+.imgLogoLogin:hover{
+    cursor: pointer;
+}
+
+nav{
+    height: 40%;
+}
+
+ul{
+    list-style-type: none;
+    height: 100%;
+    width: 100%;
+    margin-left: -20px;
+}
+
+.containerNav{
+    width: 18%;
+    margin-left: 2%;
+    height: 100%;
+    float: left;
+}
+
+.containerNav:hover{
+    cursor: pointer;
+}
+
+.imgNav{
+    height: 11vh;
+    width: 5vw;
+    float: left;
+    margin-left: 34%;
+    margin-top: 10%;
+}
+
+.tituloNav{
+    font-size: x-large;
+    width: 100%;
+    text-align: center;
+    margin-top: 56%;
+}
+
+.containerFooter{
+    width: 24%;
+    height: 100%;
+    float: left;
+}
+
+.imgFooter{
+    height: 11vh;
+    width: 5vw;
+    float: left;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
